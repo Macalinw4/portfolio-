@@ -1,0 +1,173 @@
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: brown;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Header */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  background-color: red;
+  margin: 0;
+}
+
+header h2 {
+  margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+nav a {
+  color: blue;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: green;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+}
+
+/* Skills section */
+#skills {
+  background-color: #f9f9f9;
+}
+
+#skills ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #fffacd;
+  text-align: center;
+}
+
+#testimonials ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#testimonials li {
+  background-color: white;
+  padding: 20px;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+#projects .h3 {
+text-align:center;
+}
+
+.project-card {
+background-color:#ffffff;
+border:1px solid #ccc;
+border-radius:8px;
+padding:20px;
+max-width:280px;
+text-align:center;
+margin:20px auto;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+}
+
+#projects .button {
+display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+#projects .button:hover {
+background-color:#0056b3;
+}
+#contact-form {
+  background-color: #f9f9f9;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#contact-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  margin: 8px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+#contact-form button {
+  background-color: #007BFF;
+  padding:20px;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+#contact-form button:hover {
+
+  background-color:#ff0000
+}
+/* Footer */
+footer {
+  background-color: #008000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* Responsive nav for small screens */
+@media (max-width: 800px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #testimonials ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
